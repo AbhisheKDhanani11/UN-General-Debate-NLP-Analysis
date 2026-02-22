@@ -30,75 +30,74 @@ The dataset is sourced from the United Nations General Debate Corpus on [Harvard
 ## Results
 Key visualizations from the notebook (see full details in the paper). The figures highlighted below are those featured in the accepted paper:
 
-- **Top 10 Words in 2000-2004** (Bar chart showing frequency of words like "international", "security", etc.)  
-![Top 10 Words in 2000-2004](figures/top_words_2000-2004.png)
+- **Top Words 2000-2004** (Bar chart showing frequency of words like "international", "security", etc.)  
+![Top Words 2000-2004](Figures/top_words_2000-2004.png)
 
-- **Top 10 Words in 2005-2009** (Bar chart)  
-![Top 10 Words in 2005-2009](figures/top_words_2005-2009.png)
+- **Top Words 2005-2009** (Bar chart)  
+![Top Words 2005-2009](Figures/top_words_2005-2009.png)
 
-- **Top 10 Words in 2010-2014** (Bar chart)  
-![Top 10 Words in 2010-2014](figures/top_words_2010-2014.png)
+- **Top Words 2010-2014** (Bar chart)  
+![Top Words 2010-2014](Figures/top_words_2010-2014.png)
 
-- **Top 10 Words in 2015-2019** (Bar chart)  
-![Top 10 Words in 2015-2019](figures/top_words_2015-2019.png)
+- **Top Words 2015-2019** (Bar chart)  
+![Top Words 2015-2019](Figures/top_words_2015-2019.png)
 
-- **Top 10 Words in 2020-2024** (Bar chart)  
-![Top 10 Words in 2020-2024](figures/top_words_2020-2024.png)
+- **Top Words 2020-2024** (Bar chart)  
+![Top Words 2020-2024](Figures/top_words_2020-2024.png)
 
-- **Heatmap of Trade and Economic Words Across Years (2000-2024)** (Highlighted in paper for economic trends)  
-![Heatmap of Trade and Economic Words](figures/heatmap_economic.png)
+- **Heatmap Economic** (Heatmap of Trade and Economic Words Across Years (2000-2024))  
+![Heatmap Economic](Figures/heatmap_economic.png)
 
-- **Heatmap of Top Word Frequencies Across Years (2000-2024)** (Highlighted for overall trends)  
-![Heatmap of Top Words](figures/heatmap_words_year.png)
+- **Heatmap Words Year** (Heatmap of Top Word Frequencies Across Years (2000-2024))  
+![Heatmap Words Year](Figures/heatmap_words_year.png)
 
-- **Heatmap of Geopolitically Important Countries Across Years (2000-2024)** (Highlighted for regional focus)  
-![Heatmap of Geopolitical Countries](figures/heatmap_geopolitical.png)
+- **Heatmap Geopolitical** (Heatmap of Geopolitically Important Countries Across Years (2000-2024))  
+![Heatmap Geopolitical](Figures/heatmap_geopolitical.png)
 
-- **Heatmap of Security and Terrorism Words Across Years (2000-2024)**  
-![Heatmap of Security and Terrorism](figures/heatmap_security.png)
+- **Heatmap Security** (Heatmap of Security and Terrorism Words Across Years (2000-2024))  
+![Heatmap Security](Figures/heatmap_security.png)
 
-- **Average Speech Length by Five-Year Period** (Line chart showing speech length trends)  
-![Average Speech Length](figures/speech_length_period.png)
+- **Speech Length Period** (Average Speech Length by Five-Year Period)  
+![Speech Length Period](Figures/speech_length_period.png)
 
 - **Topic Proportions Over Time** (Stacked area chart from LDA)  
-![Topic Proportions Over Time](figures/topic_proportions_over_time.png)
+![Topic Proportions Over Time](Figures/topic_proportions_over_time.png)
 
-- **Heatmap of Top 5 Word Frequencies Across Decades**  
-![Heatmap Top 5 Words Decades](figures/heatmap_words_decade.png)
+- **Heatmap Words Decade** (Heatmap of Top 5 Word Frequencies Across Decades)  
+![Heatmap Words Decade](Figures/heatmap_words_decade.png)
 
-- **Word Frequency Trends by Decade** (Line chart)  
-![Word Frequency Trends Decade](figures/word_trends_decade.png)
+- **Word Trends Decade** (Word Frequency Trends by Decade)  
+![Word Trends Decade](Figures/word_trends_decade.png)
 
-- **Word Frequency Trends by Five-Year Period** (Line chart)  
-![Word Frequency Trends Five-Year](figures/word_trends_period.png)
+- **Word Trends Period** (Word Frequency Trends by Five-Year Period)  
+![Word Trends Period](Figures/word_trends_period.png)
 
-- **TF-IDF Scores of Top 20 Distinctive Words Across Groups** (Heatmaps for G7, G20, EU, Africa)  
-![TF-IDF Heatmap 1](figures/tfidf_heatmap_top_words_groups.png)  
-![TF-IDF Heatmap 2](figures/tfidf_heatmap_top_words_groups1.png)
+- **TFIDF Heatmap Top Words Groups** (TF-IDF Scores of Top 20 Distinctive Words Across Groups)  
+![TFIDF Heatmap Top Words Groups](Figures/tfidf_heatmap_top_words_groups.png)  
+![TFIDF Heatmap Top Words Groups 1](Figures/tfidf_heatmap_top_words_groups1.png)
 
-- **Average LDA Topic Proportions Across Groups** (Bar charts for topic distributions)  
-![LDA Proportions 1](figures/lda_topic_proportions_g7_g20_eu_africa.png)  
-![LDA Proportions 2](figures/lda_topic_proportions_g7_g20_eu_africa1.png)
+- **LDA Topic Proportions G7 G20 EU Africa** (Average LDA Topic Proportions Across Groups)  
+![LDA Topic Proportions G7 G20 EU Africa](Figures/lda_topic_proportions_g7_g20_eu_africa.png)  
+![LDA Topic Proportions G7 G20 EU Africa 1](Figures/lda_topic_proportions_g7_g20_eu_africa1.png)
 
-- **Top 10 Geopolitical Entities (GPE) Mentioned by Group** (Bar charts for G7, G20, EU, Africa)  
-![Top 10 GPE by Group 1](figures/top_gpe_mentions_by_group.png)  
-![Top 10 GPE by Group 2](figures/top_gpe_mentions_by_group1.png)
+- **Top GPE Mentions By Group** (Top 10 Geopolitical Entities (GPE) Mentioned by Group)  
+![Top GPE Mentions By Group](Figures/top_gpe_mentions_by_group.png)  
+![Top GPE Mentions By Group 1](Figures/top_gpe_mentions_by_group1.png)
 
 - **Word Clouds** (Various thematic word clouds)  
 Examples:  
-![Word Cloud Topic 0](figures/topic0.png)  
-![Word Cloud Topic 1](figures/topic1.png)  
-![Word Cloud Topic 2](figures/topic2.png)  
-![Word Cloud Topic 3](figures/topic3.png)  
-![Word Cloud Topic 4](figures/topic4.png)  
-![Word Cloud Topic 5](figures/topic5.png)  
-![Word Cloud Topic 6](figures/topic6.png)  
-![Word Cloud Topic 7](figures/topic7.png)  
-![Word Cloud Topic 8](figures/topic8.png)  
-![Word Cloud Topic 9](figures/topic9.png)
+![Topic0](Figures/topic0.png)  
+![Topic1](Figures/topic1.png)  
+![Topic2](Figures/topic2.png)  
+![Topic3](Figures/topic3.png)  
+![Topic4](Figures/topic4.png)  
+![Topic5](Figures/topic5.png)  
+![Topic6](Figures/topic6.png)  
+![Topic7](Figures/topic7.png)  
+![Topic8](Figures/topic8.png)  
+![Topic9](Figures/topic9.png)
 
-All figures are in the `/figures/` folder. Those directly from the paper are prioritized above.
-
+All figures are in the `/Figures/` folder. Those directly from the paper are prioritized above.
 ## Citation
 If using this code or data, please cite the paper (once published):  
 @article{dhanani2026nlp,
